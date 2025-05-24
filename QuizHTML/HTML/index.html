@@ -3,6 +3,8 @@
     <head>
         <title>Quiz para programadores</title>
         <meta charset="UTF-8" name="description" content="Um quiz interativo para testar seus conhecimentos">
+        <link rel="stylesheet" href="../CSS/style.css">
+
     </head>
     <body>
         <header>
@@ -93,7 +95,7 @@
                     <label for="p7"></label><select name="pergunta7" id="p7">
                         <option value="id">id</option>
                         <option value="type">Type</option>
-                        <option value="placehoder">PlaceHolder</option>
+                        <option value="placeholder">PlaceHolder</option>
                     </select>
                 </form>
             </section>
@@ -102,7 +104,7 @@
             <section>
                 <h2>Pergunta 8: Qual linguagem de programção é representada pelo logotipo abaixo? </h2>
                 <figure>
-                    <img src="../assets/LogoJava.png" alt="Logotipo de uma linguagem de programação" height="200" width="300"/><br>
+                    <img src="../assets/LogoJava.png" alt="Logotipo de uma linguagem de programação"/><br>
                     <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
                 </figure>
                     <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta">
@@ -174,17 +176,17 @@
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email"><br>
                         <label for="comments">Comentários: </label><br>
-                        <textarea name="comments" id="comments" cols="50" rows="6" placeholder="Digite seu comentário aqui"></textarea>
+                        <textarea name="comments" id="comments" cols="50" rows="6" placeholder="Digite seu comentário aqui"></textarea><br>
+                        <button onclick="alert('FEEDBACK ENVIADO')">Enviar feedback</button>
                     </fieldset>
                 </form>
             </section>
         </main>
         <footer>
-            <p>Quiz de programadores. Todos os direitos reservados &copy</p>
-            <p>Programado por <strong>Juliano Martins de Souza</strong></p>
-            <p>Entre em contato pelo <a target="_blank" href="https://api.whatsapp.com/send?phone=5551996440559 ">WhatsApp</a><p>
-            <p><a href="" target="_blank"></a>
-            <p>Para conhecer mais sobre mim, <a href="sobremim.html">clique aqui</a></p>
+            <p class="paragrafo-footer">Quiz de programadores. Todos os direitos reservados &copy</p>
+            <p class="paragrafo-footer">Programado por <strong>Juliano Martins de Souza</strong></p>
+            <p class="paragrafo-footer">Entre em contato pelo <a target="_blank" href="https://api.whatsapp.com/send?phone=5551996440559 ">WhatsApp</a><p>
+            <p class="paragrafo-footer">Para conhecer mais sobre mim, <a href="sobre.html">clique aqui</a></p>
         </footer>
     </body>
 </html>
